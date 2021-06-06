@@ -1,4 +1,5 @@
 package br.com.atriam.todolist.ui
+import android.app.Activity
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -58,7 +59,9 @@ class AddTaskActivity : AppCompatActivity () {
                 hour = binding.tilHour.text
             )
             TaskDataSource.insertTask(task)
-            Log.e("TAG", "insertListeners: " + TaskDataSource.getList())
+            setResult(Activity.RESULT_OK)
+            //finish()
+            //Log.e("TAG", "insertListeners: " + TaskDataSource.getList())
         }
     }
 }
