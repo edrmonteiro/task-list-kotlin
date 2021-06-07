@@ -8,4 +8,7 @@
     <string name="tasks">Tarefas</string>
     <string name="label_tasks">tarefas</string>
     <string name="label_description_new_task">Nova tarefa</string>
+    <string name="label_you_dont_have_tasks">Você não tem tarefas</string>
+    <string name="label_edit">Editar</string>
+    <string name="label_delete">Deletar</string>
 </resources>
